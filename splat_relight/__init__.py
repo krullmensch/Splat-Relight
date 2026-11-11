@@ -279,7 +279,7 @@ class SR_PT_shadow(SR_PT_base):
         if mod is None:
             lay.label(text="Kein Schattenproxy", icon='INFO')
             return
-        lay.label(text=proxy.name, icon='MOD_NODES')
+        lay.label(text=proxy.name, icon='GEOMETRY_NODES')
         col = lay.column(align=True)
         for name, *_ in build.PROXY_INPUTS:
             try:

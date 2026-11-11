@@ -91,7 +91,7 @@ For every splat, Cycles decides from the splat's own geometric normal whether li
 ### Development
 
 - `splat_relight/`: add-on source (Blender extension)
-- `dev/`: test scripts. `make_test_ply.py` creates a synthetic splat scene, `compare_engines.py` and `verify_fix.py` render it in Cycles and EEVEE for comparison.
+- `dev/`: test scripts. `make_test_ply.py` creates a synthetic splat scene, `compare_engines.py` and `verify_fix.py` render it in Cycles and EEVEE for comparison, `check_panels.py` runs every panel headlessly and checks icons, properties and operators.
 
 Build:
 
@@ -188,7 +188,7 @@ Cycles entscheidet für jeden Splat über dessen eigene Geometrie-Normale, ob Li
 ### Entwicklung
 
 - `splat_relight/`: Quellcode des Add-ons (Blender Extension)
-- `dev/`: Testskripte. `make_test_ply.py` erzeugt eine synthetische Splat-Szene, `compare_engines.py` und `verify_fix.py` rendern sie zum Vergleich in Cycles und EEVEE.
+- `dev/`: Testskripte. `make_test_ply.py` erzeugt eine synthetische Splat-Szene, `compare_engines.py` und `verify_fix.py` rendern sie zum Vergleich in Cycles und EEVEE, `check_panels.py` zeichnet alle Panels headless und prüft Icons, Properties und Operatoren.
 
 Bauen:
 
